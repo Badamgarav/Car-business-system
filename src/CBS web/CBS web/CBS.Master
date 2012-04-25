@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CBS.master.cs" Inherits="CBS_web.CBS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Car business system</title>
+<meta name="keywords" content="free css template, car online, automobile, CSS, XHTML" />
+<meta name="description" content="Car Online - free website template provided by templatemo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="templatemo_container">
+	<!--  Free CSS Templates by TemplateMo.com  -->
+    <div id="templatemo_header">
+        <div id="website_title">
+
+        </div>
+    </div> <!-- end of header -->
+
+    <div id="templatemo_menu">
+        <ul>
+            <li><a href="#" class="current">Home</a></li>
+            <li><a href="#">New car</a></li>
+            <li><a href="#">Old Car</a></li>
+            <li><a href="#">Discount car</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#" class="last">Login</a></li>
+        </ul> 
+    </div>    <!-- end of menu -->
+    
+    <div id="templatemo_content_wrapper">
+    
+        <div id="templatemo_content">
+        	
+            <div class="content_title_01">Welcome to car business system!</div>
+          	<img src="images/templatemo_image_01.jpg" alt="image" />
+            <p>This car </p>
+            
+       	  <div class="cleaner_h10">&nbsp;</div>
+            <div class="horizontal_divider_01">&nbsp;</div>
+            <div class="cleaner_h30">&nbsp;</div>
+            
+            <div class="column_02">
+	            <div class="content_title_02">Car News</div>
+                <div class="news_section">
+                    <div class="news_title">Quisque ornare pulvinar lorem</div>
+                    <p>Aliquam lacus turpis, dapibus eget, tincidunt eu, lobortis et, magna.</p>
+              </div>
+                
+                <div class="cleaner_h20">&nbsp;</div>
+                
+                <div class="news_section">
+                    <div class="news_title">Donec euismod enim et risus</div>
+                    <p>Lorem ipsum dolor sit amet, nulla lorem porttitor porta turpis, in sit donec id nulla.</p>
+                </div>
+                
+                <div class="cleaner_h20">&nbsp;</div>
+                <div class="rc_btn_01"><a href="#">Read All</a></div>
+			</div>
+            
+            <div class="cleaner_w50">&nbsp;</div>
+            
+             <div class="cleaner">&nbsp;</div>
+        </div>
+        <div class="cleaner">&nbsp;</div>
+    </div> <!-- end of content wrapper -->
+    
+    <div id="templatemo_footer">
+	</div> <!-- end of footer -->
+</div> <!-- end of container -->
+    </div>
+    </form>
+</body>
+</html>

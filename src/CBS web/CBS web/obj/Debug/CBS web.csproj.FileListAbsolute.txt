@@ -1,0 +1,5 @@
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS web\CBS web\bin\CBS web.dll
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS web\CBS web\bin\CBS web.pdb
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS web\CBS web\obj\Debug\ResolveAssemblyReference.cache
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS web\CBS web\obj\Debug\CBS web.dll
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS web\CBS web\obj\Debug\CBS web.pdb
