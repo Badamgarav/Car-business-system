@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Version02.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Login</title>
+    <meta name="keywords" content="free css template, car online, automobile, CSS, XHTML" />
+    <meta name="description" content="Car Online - free website template provided by templatemo.com" />
+    <link href="adminHomeStyle.css" rel="stylesheet" type="text/css" />
+    <link href="basicStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #Password1
+        {
+            width: 212px;
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="container">
+	<!--  Free CSS Templates by TemplateMo.com  -->
+    <div id="header">
+        <div id="website_title">
+
+        </div>
+    </div> <!-- end of header -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="AdminHome.aspx" class="current">Register</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="HomePage.aspx" >Logout</a></li>
+        </ul> 
+    </div>    <!-- end of menu -->
+    
+    <div id="content_wrapper">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        <div id="content">
+            <div class="cleaner_h10">
+                
+                &nbsp;<asp:GridView ID="GridView1" runat="server" BackColor="#DEBA84" 
+                    BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" 
+                    CellSpacing="2" Height="247px" 
+                    onselectedindexchanged="GridView1_SelectedIndexChanged" Width="686px">
+                    <Columns>
+                        <asp:BoundField HeaderText="№" />
+                        <asp:BoundField HeaderText="Mark" />
+                        <asp:BoundField HeaderText="Color" />
+                        <asp:BoundField HeaderText="Type" />
+                        <asp:BoundField HeaderText="Brand" />
+                        <asp:BoundField HeaderText="Manufacturer year" />
+                        <asp:BoundField HeaderText="Capacity" />
+                        <asp:BoundField HeaderText="Price" />
+                        <asp:BoundField HeaderText="Trip recorder" /> 
+                    </Columns>
+                    <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+                    <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+                    <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+                    <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+                    <SortedAscendingCellStyle BackColor="#FFF1D4" />
+                    <SortedAscendingHeaderStyle BackColor="#B95C30" />
+                    <SortedDescendingCellStyle BackColor="#F1E5CE" />
+                    <SortedDescendingHeaderStyle BackColor="#93451F" />
+                </asp:GridView>
+            </div>
+        </div>
+         </asp:ContentPlaceHolder>
+    </div> <!-- end of content wrapper -->
+    
+   
+    <div id="footer">
+		Copyright © 
+	end of footer -->
+</div> <!-- end of container -->
+    </div>
+    </form>
+</body></html>

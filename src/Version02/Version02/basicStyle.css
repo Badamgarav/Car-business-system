@@ -1,0 +1,99 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #989898;
+	background: #000000;
+}
+
+a:link, a:visited { color: #edad0f; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #edad0f; text-decoration: underline; }
+
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 30px 10px 30px;
+} 
+
+#header {
+	width: 900px;
+	height: 178px;
+	margin: 0px;
+	padding: 0px;
+	background: url(images/banner.jpg) no-repeat;
+}
+
+#header #website_title {
+	width: 900px;
+	padding: 100px 0 0 0;
+	text-align: center;
+}
+
+#website_title #title {
+	font-size: 50px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+#website_title #salgon {
+	clear: both;
+	font-size: 18px;
+	font-weight: bold;
+	color:#cccccc;
+}
+
+#menu{
+	float: left;
+	width: 900px;
+	height: 70px;
+	background: url(images/menu_bg.jpg) no-repeat;
+}
+
+#menu ul {
+	width: 600px;
+	margin: 26px 0 0 160px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	float: left;
+	padding: 0 20px;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	background: url(images/menu_divider.gif) top right repeat-y;
+	color: #ffffff;
+	font-weight: bold;
+	outline: none;
+}
+
+#menu li a:hover, #menu li .current{
+	color: #edad0f;
+}
+
+
+/* footer */
+#footer {
+	clear: both;
+	width: 900px;
+	height: 35px;
+	padding-top: 55px; 
+	color: #eca90e;
+	text-align: center;	
+	background: url(images/footer.jpg) no-repeat;
+}
+
+#footer a{
+	color: #eca90e;
+	font-weight: bold;
+}
+/* end of footer */

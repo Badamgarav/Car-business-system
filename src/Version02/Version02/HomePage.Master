@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.master.cs" Inherits="Version02.HomePage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Home</title>
+    <meta name="keywords" content="free css template, car online, automobile, CSS, XHTML" />
+    <meta name="description" content="Car Online - free website template provided by templatemo.com" />
+    <link href="homeStyle.css" rel="stylesheet" type="text/css" />
+    <link href="basicStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="container">
+	<!--  Free CSS Templates by TemplateMo.com  -->
+    <div id="header">
+        <div id="website_title">
+
+        </div>
+    </div> <!-- end of header -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="HomePage.aspx" class="current">Home</a></li>
+            <li><a href="NewCar.aspx">New Car</a></li>
+            <li><a href="OldCar.aspx">Old Car</a></li>
+            <li><a href="Discount.aspx">Discount Car</a></li>
+            <li><a href="#" class="last">Login</a></li>
+        </ul> 
+    </div>    <!-- end of menu -->
+    
+    <div id="content_wrapper">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        <div id="content">
+    <div class="content_title_01">
+        Welcome to car online!</div>
+    <img src="images/hummer.jpg" alt="image" />
+    <img src="images/hummer.jpg" alt="image" />
+    <img src="images/hummer.jpg" alt="image" />
+    <p>
+        &nbsp;has been certified to the international quality management standard 
+                customer focus and business processes meet all the requirements of this 
+                international standard, providing proof oconsistent level of quality and 
+                its commitment to continual improvement of business processes.</p>
+    <p>
+        &nbsp;</p>
+    <div class="cleaner_h10">
+        &nbsp;</div>
+    <div class="horizontal_divider_01">
+        &nbsp;</div>
+    <div class="cleaner_h30">
+        &nbsp;</div>
+    <div class="column_02">
+        <div class="content_title_02">
+            Short-time goal</div>
+        <div class="news_section">
+            <div class="news_title">
+                a</div>
+            <p>
+                b</p>
+        </div>
+        <div class="cleaner_h20">
+            &nbsp;</div>
+        <div class="news_section">
+            <div class="news_title">
+                a</div>
+            <p>
+                b</p>
+        </div>
+        <div class="cleaner_h20">
+            &nbsp;</div>
+    </div>
+    <div class="cleaner_w50">
+        &nbsp;</div>
+    <div class="column_02">
+        <div class="content_title_02">
+            Goal</div>
+        <p>
+            We will provided you</p>
+        <ul>
+            <li>Quality</li>
+            <li>Cheap</li>
+            <li>Safety</li>
+        </ul>
+        <div class="cleaner_h20">
+            &nbsp;</div>
+    </div>
+    <div class="cleaner">
+        &nbsp;</div>
+</div>
+        <div class="cleaner">
+            &nbsp;</div>
+         </asp:ContentPlaceHolder>
+    </div> <!-- end of content wrapper -->
+    
+    <div id="footer">
+		Copyright © 
+	</div> <!-- end of footer -->
+</div> <!-- end of container -->
+    </div>
+    </form>
+</body>
+</html>
