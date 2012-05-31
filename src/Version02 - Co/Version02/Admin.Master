@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Version02.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Admin</title>
+    <meta name="keywords" content="free css template, car online, automobile, CSS, XHTML" />
+    <meta name="description" content="Car Online - free website template provided by templatemo.com" />
+    <link href="adminHomeStyle.css" rel="stylesheet" type="text/css" />
+    <link href="basicStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #Password1
+        {
+            width: 212px;
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <div id="container">
+	<!--  Free CSS Templates by TemplateMo.com  -->
+    <div id="header">
+        <div id="website_title">
+
+        </div>
+    </div> <!-- end of header -->
+
+    <div id="menu">
+        <ul>
+            <li><a href="AdminHome.aspx" class="current">Car</a></li>
+            <li><a href="HomePage.aspx" >Logout</a></li>
+        </ul> 
+    </div>    <!-- end of menu -->
+    
+    <div id="content_wrapper">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        <div id="content">
+            <div class="cleaner_h10">
+                
+                &nbsp;</div>
+        </div>
+         </asp:ContentPlaceHolder>
+    </div> <!-- end of content wrapper -->
+    
+   
+    <div id="footer">
+		Copyright © 
+	end of footer -->
+</div> <!-- end of container -->
+    </div>
+    </form>
+</body></html>

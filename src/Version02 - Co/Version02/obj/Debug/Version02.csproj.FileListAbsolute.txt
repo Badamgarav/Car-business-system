@@ -1,0 +1,10 @@
+c:\users\badamaa\documents\visual studio 2010\Projects\Version02\Version02\bin\Version02.dll
+c:\users\badamaa\documents\visual studio 2010\Projects\Version02\Version02\bin\Version02.pdb
+c:\users\badamaa\documents\visual studio 2010\Projects\Version02\Version02\obj\Debug\ResolveAssemblyReference.cache
+c:\users\badamaa\documents\visual studio 2010\Projects\Version02\Version02\obj\Debug\Version02.dll
+c:\users\badamaa\documents\visual studio 2010\Projects\Version02\Version02\obj\Debug\Version02.pdb
+C:\Users\Badamaa\Documents\Visual Studio 2010\Projects\Version02 - Co\Version02\bin\Version02.dll
+C:\Users\Badamaa\Documents\Visual Studio 2010\Projects\Version02 - Co\Version02\bin\Version02.pdb
+C:\Users\Badamaa\Documents\Visual Studio 2010\Projects\Version02 - Co\Version02\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Badamaa\Documents\Visual Studio 2010\Projects\Version02 - Co\Version02\obj\Debug\Version02.dll
+C:\Users\Badamaa\Documents\Visual Studio 2010\Projects\Version02 - Co\Version02\obj\Debug\Version02.pdb
