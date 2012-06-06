@@ -1,0 +1,5 @@
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS_Version03\CBS_Version03\bin\CBS_Version03.dll
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS_Version03\CBS_Version03\bin\CBS_Version03.pdb
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS_Version03\CBS_Version03\obj\Debug\ResolveAssemblyReference.cache
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS_Version03\CBS_Version03\obj\Debug\CBS_Version03.dll
+c:\users\badamaa\documents\visual studio 2010\Projects\CBS_Version03\CBS_Version03\obj\Debug\CBS_Version03.pdb
